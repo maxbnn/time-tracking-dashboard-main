@@ -1,0 +1,155 @@
+body {
+  background-color: #0D1323;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  padding: 0;
+  margin: 0;
+}
+
+.wrapper {
+  margin-top: 200px;
+  margin-left: 40px;
+}
+
+.wr {
+  position: relative;
+}
+
+.jeremy {
+  position: absolute;
+  display: block;
+  background-color: #5A45F3;
+  border-radius: 10px;
+  padding: 10px;
+  width: 160px;
+  height: 220px;
+  flex-shrink: 0;
+  margin: 10px;
+  color: white;
+  z-index: 1;
+}
+
+.jeremy h2 {
+  margin-left: 10px;
+  margin-top: 5px;
+}
+
+.workplace {
+  margin: 10px;
+  display: block;
+  background-color: #34397B;
+  border-radius: 10px;
+  padding: 10px;
+  width: 160px;
+  height: 130px;
+  flex-shrink: 1;
+  color: white;
+  margin-top: 40px;
+}
+
+.workplace-color {
+  position: absolute;
+  padding: 10px;
+  margin: 10px;
+  display: block;
+  border-radius: 10px;
+  width: 160px;
+  height: 50px;
+  flex-shrink: 1;
+  z-index: -1;
+  overflow: hidden;
+}
+
+.workplace-img {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  right: 0;
+  top: 0;
+  margin: -5px 10px 0 0;
+}
+
+.block-color1 {
+  background-color: #FF8359;
+}
+
+.block-color2 {
+  background-color: #00C5EA;
+}
+
+.block-color3 {
+  background-color: #FF4D7B;
+}
+
+.block-color4 {
+  background-color: #00D27B;
+}
+
+.block-color5 {
+  background-color: #7B30D9;
+}
+
+.block-color6 {
+  background-color: #F9C541;
+}
+
+.workplace-main {
+  position: relative;
+}
+
+.fl {
+  display: flex;
+  /*justify-content: space-between;*/
+  flex-wrap: wrap;
+  max-width: 800px;
+  margin-left: 200px;
+}
+
+.hour {
+  font-weight: 500;
+}
+
+.play {
+  background-color: #1C204E;
+}
+
+.jeremy-second {
+  position: absolute;
+  margin-top: 240px;
+}
+
+.study {
+  background-color: #1C204E;
+}
+
+.title {
+}
+
+.img {
+  height: 60px;
+  width: 60px;
+  border: 2px solid white;
+  border-radius: 50%;
+  margin-bottom: 20px;
+  margin-right: 10px;
+}
+
+.report {
+  font-size: 10px;
+  margin-left: 10px;
+}
+
+.btn {
+  cursor: pointer;
+  font-size: 13px;
+  margin: 15px;
+}
+
+.otstup {
+  margin-top: 30px;
+}
+
+.bth:hover {
+  background-color: rgba(28, 32, 78);
+}
+
